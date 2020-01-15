@@ -10,7 +10,7 @@ If we use this id as a tag idenifier,
 ```
     view.addTag(R.id.TAG, 0)
 ```
-Code using the resource works properly:
+Accessing the tag programmatically works properly:
 ```
     view.getTag(R.id.TAG) as Int -> 0
 ```
